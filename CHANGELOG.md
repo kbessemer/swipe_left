@@ -1,3 +1,3 @@
 ## 0.0.1
 
-* TODO: Describe initial release.
+* Swipe Left released with options for 1 and 2 buttons

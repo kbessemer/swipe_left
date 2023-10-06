@@ -2,7 +2,9 @@ name: swipe_left
 description: A Swipe Left button for Flutter
 version: 0.0.1
 homepage:
-
+repository:
+  type: git
+  url: https://github.com/kbessemer/swipe_left
 environment:
   sdk: '>=3.1.2 <4.0.0'
   flutter: ">=1.17.0"
