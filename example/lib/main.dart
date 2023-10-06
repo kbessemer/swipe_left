@@ -39,6 +39,8 @@ class _MyHomePageState extends State<MyHomePage> {
             SwipeLeft2Buttons(
                 height: 75,
                 backgroundColor: Colors.white,
+                buttonFontSize: 18.0,
+                buttonWidth: 75.0,
                 button1Title: 'Info',
                 button1BackgroundColor: Colors.blue,
                 button1FontColor: Colors.white,
@@ -71,6 +73,8 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             SwipeLeft(
                 height: 75,
+                buttonFontSize: 18.0,
+                buttonWidth: 75.0,
                 backgroundColor: Colors.white,
                 buttonTitle: 'Delete',
                 buttonBackgroundColor: Colors.red,
