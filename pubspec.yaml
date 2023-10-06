@@ -1,6 +1,6 @@
 name: swipe_left
 description: A Swipe Left button for Flutter
-version: 0.0.1
+version: 0.0.2
 homepage:
 repository: https://github.com/kbessemer/swipe_left
 environment:

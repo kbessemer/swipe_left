@@ -39,7 +39,7 @@ class _MyHomePageState extends State<MyHomePage> {
             SwipeLeft2Buttons(
                 height: 75,
                 backgroundColor: Colors.white,
-                buttonFontSize: 18.0,
+                buttonFontSize: 12.0,
                 buttonWidth: 75.0,
                 button1Title: 'Info',
                 button1BackgroundColor: Colors.blue,
@@ -54,26 +54,26 @@ class _MyHomePageState extends State<MyHomePage> {
                   // your action code here
                 },
                 child: Container(
-                  height: 75,
-                  width: 200,
-                  decoration: BoxDecoration(
-                      color: Colors.white,
-                      border: Border(
-                          bottom: BorderSide(width: 1, color: Color(0xFFe0e0e0))
-                      )
-                  ),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Icon(Icons.account_balance),
-                      Text("My Swipe Left Button"),
-                    ],
-                  )
+                    height: 75,
+                    width: MediaQuery.of(context).size.width,
+                    decoration: BoxDecoration(
+                        color: Colors.white,
+                        border: Border(
+                            bottom: BorderSide(width: 1, color: Color(0xFFe0e0e0))
+                        )
+                    ),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Icon(Icons.account_balance),
+                        Text("My Swipe Left Button"),
+                      ],
+                    )
                 )
             ),
             SwipeLeft(
                 height: 75,
-                buttonFontSize: 18.0,
+                buttonFontSize: 12.0,
                 buttonWidth: 75.0,
                 backgroundColor: Colors.white,
                 buttonTitle: 'Delete',
@@ -84,7 +84,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 },
                 child: Container(
                     height: 75,
-                    width: 200,
+                    width: MediaQuery.of(context).size.width,
                     decoration: BoxDecoration(
                         color: Colors.white,
                         border: Border(
