@@ -11,12 +11,14 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+Swipe Left is a basic package that allows you to 'swipe left' on a widget, revealing either one or two buttons.
+
 
 ## Features
 
-Swipe Left is a basic package that allows you to 'swipe left' on a widget, revealing either one or two buttons.
+* Swipe Left on any widget
+* Reveals either 1 or 2 buttons beneath the widget, with customizable actions for each button
+* All colors and sizes customizable
 
 ## Getting started
 
@@ -24,7 +26,8 @@ This package has no pre-requisites.
 
 ## Usage
 
-```SwipeLeft2Buttons(
+```
+SwipeLeft2Buttons(
                 height: 75,
                 button1Title: 'Info',
                 button1BackgroundColor: Colors.blue,
@@ -58,7 +61,8 @@ This package has no pre-requisites.
             )
 ```
 
-```SwipeLeft(
+```
+SwipeLeft(
                 height: 75,
                 buttonTitle: 'Delete',
                 buttonBackgroundColor: Colors.red,
@@ -83,10 +87,7 @@ This package has no pre-requisites.
                       ],
                     )
                 )
-            ),```
-
-```dart
-const like = 'sample';
+            ),
 ```
 
 ## Additional information
